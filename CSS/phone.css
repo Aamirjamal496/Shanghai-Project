@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* #Navbar{
+  height: fit-content;
+}
+#Logo{
+    display: inline-block;
+    margin: auto;
+} */
+/* Navigation */
+#Navbar {
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+    width: 100%;
+}
+#Navbar::before{
+    border-radius: 0rem 2rem;
+}
+#Navbar ul{
+    margin-top: -20px;
+    margin-left: 0.7rem;
+}
+#Navbar ul li{
+    margin-left: 0.2rem;
+}
+/* #navbar::before{
+    top: -2px;
+} */
+
+#Navbar ul li a{
+    font-size: 0.5rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: rgb(97, 94, 91);
+}
+
+
+
+/* Home */
+ #content{
+    top: auto;
+    margin: 9rem 1rem;
+}
+#home{
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
+}
+#home::before{
+    /* margin: 0rem 0rem; */
+    width: 100%;
+    /* position: absolute;  */
+    top: 0;
+    /* left: 0px; */
+    width: 100vw;
+    height: 30rem;
+    image-rendering: auto;
+}
+#content h1{
+    margin: 0 -12px;
+}
+#home button{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-self: auto;
+    font-size: xx-small;
+    padding: 4px 12px;    
+}
+#home p{
+    font-size: 12px;
+}
+.help img{
+    width: 3rem;
+    height: 2rem;
+}
+
+/* Services Section Styling */
+#Services-container {
+    display: block;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+#i-container{
+    margin-top: 3rem;
+}
+.item {
+    border: 2px solid brown;
+padding: 22px;
+margin: 12px;
+border-radius: 28px;
+background-color: #cb53532e;
+}
+.item p{
+    font-size: x-small;
+}
+.item img{
+    height: 50px;
+}
+
+
+/* About Us Styling */
+#About-Us{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+/* #About-Us h2{
+    font-size: 1rem;
+} */
+#descryp{
+    font-size: 10px;
+    margin-top: 0.7rem;
+    margin-bottom: 6rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+
+/* Contact us section */
+#contact-box form{
+    width:80%;
+}
+/* Footer */
+
+/* Utility classes */
+.h-primary{
+    font-size:26px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+/* Utility Classes */
+.h-primary {
+    font-size: 1.7rem;
+    font-family: 'Bree Serif', serif;
+}
+.h-secondary{
+font-size: 0.6rem;
+padding: 12px;
+font-family: 'Bree Serif', serif;
+}
